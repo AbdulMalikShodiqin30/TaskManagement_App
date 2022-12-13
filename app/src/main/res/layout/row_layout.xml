@@ -6,7 +6,7 @@
     <data>
         <variable
             name="toDoData"
-            type="com.example.todoapp.data.models.ToDoData" />
+            type="com.D121201005.todoapp.data.models.ToDoData" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

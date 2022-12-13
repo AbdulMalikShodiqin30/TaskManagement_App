@@ -6,7 +6,7 @@
     <data>
         <variable
             name="mSharedViewModel"
-            type="com.example.todoapp.fragments.SharedViewModel" />
+            type="com.D121201005.todoapp.fragments.SharedViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
