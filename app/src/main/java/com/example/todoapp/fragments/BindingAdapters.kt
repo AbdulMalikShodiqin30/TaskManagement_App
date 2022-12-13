@@ -4,7 +4,6 @@ import android.view.View
 import android.widget.Spinner
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.content.ContextCompat
 import androidx.databinding.BindingAdapter
 import androidx.lifecycle.MutableLiveData
 import androidx.navigation.findNavController
@@ -49,9 +48,10 @@ class BindingAdapters {
 		@JvmStatic
 		fun parsePriorityToInt(spinner: Spinner, priority: Priority) {
 			when (priority) {
-				Priority.High -> spinner.setSelection(0)
-				Priority.Medium -> spinner.setSelection(1)
-				Priority.Low -> spinner.setSelection(2)
+				Priority.PentingMendesak -> spinner.setSelection(0)
+				Priority.TidakPentingMendesak -> spinner.setSelection(1)
+				Priority.PentingTidakMendesak -> spinner.setSelection(2)
+				Priority.TidakPentingTidakMendesak -> spinner.setSelection(3)
 			}
 		}
 
@@ -59,21 +59,22 @@ class BindingAdapters {
 		@JvmStatic
 		fun parsePriorityColor(cardView: CardView, priority: Priority) {
 			when (priority) {
-				Priority.High -> cardView.setCardBackgroundColor(
+				Priority.PentingMendesak -> cardView.setCardBackgroundColor(
 					cardView.context.getColor(
 						R.color.red
 					)
 				)
-				Priority.Medium -> cardView.setCardBackgroundColor(
+				Priority.TidakPentingMendesak -> cardView.setCardBackgroundColor(
 					cardView.context.getColor(
 						R.color.yellow
 					)
 				)
-				Priority.Low -> cardView.setCardBackgroundColor(
+				Priority.PentingTidakMendesak -> cardView.setCardBackgroundColor(
 					cardView.context.getColor(
 						R.color.green
 					)
 				)
+
 			}
 		}
 	}

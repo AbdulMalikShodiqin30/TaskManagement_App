@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/Pemrograman Mobile/TaskManagement_App/app/src/main/res/layout/activity_main.xml" value="0.12447916666666667" />
+        <entry key="..\:/Kuliah/Pemrograman Mobile/TaskManagement_App/app/src/main/res/layout/fragment_add.xml" value="0.2713541666666667" />
+        <entry key="..\:/Kuliah/Pemrograman Mobile/TaskManagement_App/app/src/main/res/layout/fragment_list.xml" value="0.2713541666666667" />
+        <entry key="..\:/Kuliah/Pemrograman Mobile/TaskManagement_App/app/src/main/res/layout/row_layout.xml" value="0.12447916666666667" />
+        <entry key="..\:/Kuliah/Pemrograman Mobile/TaskManagement_App/app/src/main/res/menu/add_fragment_menu.xml" value="0.2713541666666667" />
+        <entry key="..\:/Kuliah/Pemrograman Mobile/TaskManagement_App/app/src/main/res/menu/list_fragment_menu.xml" value="0.2713541666666667" />
+        <entry key="..\:/Kuliah/Pemrograman Mobile/TaskManagement_App/app/src/main/res/menu/update_fragment_menu.xml" value="0.2713541666666667" />
         <entry key="..\:/Mobile App/TaskManagement_App_Android-master/app/src/main/res/drawable/ic_add.xml" value="0.135" />
         <entry key="..\:/Mobile App/TaskManagement_App_Android-master/app/src/main/res/drawable/item_background.xml" value="0.135" />
         <entry key="..\:/Mobile App/TaskManagement_App_Android-master/app/src/main/res/layout/activity_main.xml" value="0.1" />

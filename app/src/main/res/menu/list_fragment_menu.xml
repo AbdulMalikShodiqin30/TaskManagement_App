@@ -17,10 +17,10 @@
             <menu>
                 <item
                     android:id="@+id/menu_priority_high"
-                    android:title="@string/priority_high"/>
+                    android:title="@string/Penting_Mendesak"/>
                 <item
                     android:id="@+id/menu_priority_low"
-                    android:title="@string/priority_low"/>
+                    android:title="@string/Tidak_Penting_Tidak_Mendesak"/>
             </menu>
         </item>
     </group>

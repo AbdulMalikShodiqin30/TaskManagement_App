@@ -1,7 +1,6 @@
 package com.example.todoapp.fragments
 
 import android.app.Application
-import android.graphics.Color.red
 import android.view.View
 import android.widget.AdapterView
 import android.widget.TextView
@@ -32,6 +31,7 @@ class SharedViewModel(application: Application): AndroidViewModel(application) {
 					0 -> { (parent?.getChildAt(0) as TextView).setTextColor(ContextCompat.getColor(application, R.color.red))}
 					1 -> { (parent?.getChildAt(0) as TextView).setTextColor(ContextCompat.getColor(application, R.color.yellow))}
 					2 -> { (parent?.getChildAt(0) as TextView).setTextColor(ContextCompat.getColor(application, R.color.green))}
+					3 -> { (parent?.getChildAt(0) as TextView).setTextColor(ContextCompat.getColor(application, R.color.black))}
 				}
 			}
 
@@ -48,10 +48,11 @@ class SharedViewModel(application: Application): AndroidViewModel(application) {
 
 	fun parsePriorityString(priority: String): Priority {
 		return when(priority) {
-			"High Priority" -> Priority.High
-			"Low Priority" -> Priority.Low
-			"Medium Priority" -> Priority.Medium
-			else -> Priority.Low
+			"Penting Mendesak" -> Priority.PentingMendesak
+			"Tidak Penting Mendesak" -> Priority.TidakPentingMendesak
+			"Penting Tidak Mendesak" -> Priority.PentingTidakMendesak
+			"Tidak Penting Tidak Mendesak" -> Priority.TidakPentingTidakMendesak
+			else -> Priority.TidakPentingTidakMendesak
 		}
 	}
 }
